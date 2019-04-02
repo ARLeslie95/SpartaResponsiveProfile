@@ -30,3 +30,41 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+@media screen and (max-width:350px){
+	header{
+		width:293px;
+		position:relative;
+		right: 79px;
+		bottom: 18px;
+		border: 0px;
+	}
+
+	header .left{
+		float:left;
+	}
+
+	header .right {
+		position: relative;
+		top: 6px;
+		width: 95%;
+
+	}
+
+	header, section {
+		display: inline-table;
+	}
+	ul{
+		width: 197px;
+	}
+
+  .left{
+		float: right;
+	}
+
+	.experience{
+		width:293px;
+		position: relative;
+		right: 78px;
+		border: 0px;
+	}
+}
