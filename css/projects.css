@@ -18,3 +18,22 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width:350px) {
+  .main-content{
+    margin:10px;
+  }
+
+  .tile{
+    width: 90%;
+    display: inline-table;
+  }
+  .tile img {
+    position:relative;
+
+  }
+  .tile div{
+    position: relative;
+    bottom: 30px;
+  }
+}
